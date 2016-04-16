@@ -1,0 +1,37 @@
+.main{
+    margin: 40px ;
+    padding: 40px;
+    border: 1px solid #e3e3e3;
+    background-color: #e3e3e3;
+    overflow: auto;
+}
+
+.left{
+    height: 120px;
+    width: 200px;
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+}
+
+.right{
+    width: 100px;
+    overflow: hidden;
+    padding: 20px;
+    float: right;
+    margin: 0 1px;
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+}
+
+
+.center{
+
+  margin-left: 240px;
+  margin-right: 165px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+}
+
+

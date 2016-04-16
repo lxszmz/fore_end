@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>利用after和before制作提示框</title>
+    <style>
+        .demo{
+            width: 200px;
+            height: 50px;
+            margin: 40px;
+            border-radius: 3px;
+            border: 4px solid #cccccc;
+            background: #0099FF;
+        }
+
+        .demo:after, .demo:before{
+            bottom:100%;
+            border:10px solid transparent;
+            content:" ";
+            width:0; height:0;
+            position: absolute;
+            pointer-events: none;
+        }
+        .demo:after{
+            border-bottom-color:#0099FF;
+            border-width:10px;
+            left:50%;
+            margin-left:-10px;
+        }
+        .demo:before {
+            border-bottom-color:#cccccc;
+            border-width: 16px;
+            left: 50%;
+            margin-left: -16px;
+        }
+
+        .demo_right{
+            width: 200px;
+            height: 50px;
+            margin: 40px;
+            border-radius: 3px;
+            border: 4px solid #cccccc;
+            background: #0099FF;
+        }
+
+
+        .demo_bottom{
+            width: 200px;
+            height: 50px;
+            margin: 40px;
+            border-radius: 3px;
+            border: 4px solid #cccccc;
+            background: #0099FF;
+        }
+
+
+        .demo_left{
+            width: 200px;
+            height: 50px;
+            margin: 40px;
+            border-radius: 3px;
+            border: 4px solid #cccccc;
+            background: #0099FF;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+<div class="demo"></div>
+<div class="demo_right"></div>
+<div class="demo_bottom"></div>
+<div class="demo_left"></div>
+</body>
+</html>

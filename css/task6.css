@@ -1,0 +1,64 @@
+body{
+    background-color: #e3e3e3;
+}
+
+.wrapper{
+    width: 980px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0 44px;
+}
+
+.top{
+    width: 100%;
+    border-bottom: 2px solid #938e8c;
+    font-size: 12px;
+    font-family: "黑体";
+
+}
+
+.clearfix:after{
+    content: "020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    /* 触发 hasLayout */
+    zoom: 1;
+}
+.left{
+    width: 96px;
+    height: 16px;
+    background-color: #d45d5c;
+    float: left;
+    padding-top: 45px;
+    padding-left: 4px;
+
+}
+
+.right{
+    padding-top: 45px;
+    float: right;
+    color: #dc5d5c;
+}
+
+.left span{
+    color: #ffffff;
+}
+.right span{
+    margin-top: 45px;
+}
+
+.up {
+    margin-top: 35px;
+    float: left;
+}
+
+.up_right{
+    width: 203px;
+    float: right;
+    border-top: 2px solid #cc8091;
+}
